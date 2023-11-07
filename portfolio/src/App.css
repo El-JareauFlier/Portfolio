@@ -1,3 +1,81 @@
-.App {
-  text-align: center;
+:root{
+  /* text & bg colors */
+  --color-bg1: rgba(19, 19, 19, 1);
+  --color-bg2: rgb(237, 236, 232);
+  
+
+
+  --font-color: black;
+
+  /* text fonts */
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 62, 5%;
+}
+
+.navbar {
+  position: absolute;
+  height: 100vh;
+  background-color: var(--color-bg1);
+  width: 5vw;
+}
+
+.nav-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+  margin: auto;
+}
+
+.navbar ul{
+  list-style: none;
+  color: white;
+  background-color: var(--color-bg1);
+}
+
+.rotate{
+  transform: rotate(-90deg);
+  display: flex;
+}
+
+.navbar li{
+  color: rgb(26, 26, 100);
+  color: rgb(255, 255, 255);
+  background-color: var(--color-bg1);
+
+}
+
+.navbar a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: var(--color-bg1);
+}
+
+.Alink{
+  padding: 0 10px;
+}
+
+.icon{
+  width: 3vw;
+  height: 3vw;
+  margin: 20px 0;
+  border: 1px;
+  border-radius: 50px;
+  background-color: rgb(189, 196, 173);
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+header, main{
+  margin: 0 0 0 5vw;
+  background-color: rgb(242, 241, 218);
 }
