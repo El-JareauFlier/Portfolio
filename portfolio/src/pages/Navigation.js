@@ -12,6 +12,10 @@ const Navigation = () => {
 
             <ul className='rotate'>
                 <li>
+                    <Link to='/contact' className='Alink'>Contact</Link>
+                </li>
+
+                <li>
                     <Link to='/projects' className='Alink'>projects</Link>
                 </li>
 

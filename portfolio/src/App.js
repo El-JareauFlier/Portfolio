@@ -3,7 +3,9 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import Navigation from "./pages/Navigation"
 import Home from './pages/Home'
 import Projects from "./pages/Projects"
+import Contact from "./pages/Contact"
 import NoPage from './pages/NoPage'
+import '@fontsource/castoro-titling';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
             <Route index element={<Home/>}/>
             <Route path='/home' element={<Home/>}/>
             <Route path='/Projects' element={<Projects/>}/>
+            <Route path='/Contact' element={<Contact/>}/>
             <Route path='*' element={<NoPage/>}/>
           </Route>
         </Routes>
