@@ -14,15 +14,20 @@
 * {
   margin: 0;
   padding: 0;
-  font-size: 62, 5%;
+  font-size: 62,5%;
   scroll-behavior: smooth;
+}
+
+.layout {
+  margin-left: 5rem;
+  background-color: var(--color-bg2);
 }
 
 .navbar {
   position: fixed;
   height: 100vh;
   background-color: var(--color-bg1);
-  width: 5vw;
+  width: 5rem;
   font-family: 'Castoro Titling', sans-serif;  
 
 }
@@ -58,15 +63,15 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: var(--color-bg1);
+  font-size: 0.8rem;
+  font-style: italic;
 }
-
-
 
 .navbar li:hover{
   transform: scale(1.1);
   text-decoration: line-through;
-  transition: 0.5s;
-  color: rgb(214, 214, 40);
+  transition: 0.4s;
+  color: var(--color-bg1);
 
 }
 
@@ -88,15 +93,10 @@
   transition: 0.5s;
 }
 
-header,
-main {
-  margin: 0 0 0 5vw;
-  background-color: var(--color-bg2);
-}
-
 header {
   height: 90vh;
   display: flex;
+  padding: 2rem;
 }
 
 .profile {
@@ -140,4 +140,33 @@ header {
 
 .main2{
   width: 20vw;
+}
+
+.contactme{
+  border-right: var(--color-bg1) .1rem solid;
+  padding: 4rem;
+}
+
+.contactme h1{
+  color: var(--color-bg1);
+  font-family: 'Castoro Titling', sans-serif;
+  font-variant: small-caps;
+  font-size: 10rem;
+  font-weight: 900;
+  margin: 0 0 -3rem 0;
+}
+
+.contactme h2{
+  font-family: 'Castoro Titling', sans-serif;
+  font-size: 2rem;
+  font-style: italic;
+  line-height: 2rem;
+  margin: 2vh 0;
+}
+
+.contactme p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 100;
+
 }

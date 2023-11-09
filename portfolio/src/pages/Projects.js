@@ -1,10 +1,13 @@
+import Layout from '../components/Layout';
+
 const Projects = () => {
     return ( 
         <div className='App'>
-            <header>
-                <h1>Projects</h1>
-            </header>
-            
+            <Layout>
+                <header>
+                    <h1>Projects</h1>
+                </header>
+            </Layout>
         </div>
      );
 }
