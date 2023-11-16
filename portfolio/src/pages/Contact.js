@@ -14,8 +14,14 @@ const Contact = () => {
                             <p>Email: el.j.flier@gmail.com</p>
                             <p>School email: 9017738@student.zadkine.nl</p>
                             <p>Phone number: 06 23549646</p>
-                            <p>On the interneth: linkdin/ github</p>
-
+                            <ul class="links">
+                                <li>On the interneth: </li>
+                                <li><a target="_blank" href="mailto:el.j.flier@gmail.com" rel="noreferrer">Email</a></li>
+                                <li>/</li>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/el-jareauflierstudent/" rel="noreferrer">LinkedIn</a></li>
+                                <li>/</li>
+                                <li><a target="_blank" href="https://www.linkedin.com/in/el-jareauflierstudent/" rel="noreferrer">GitHub</a></li>
+                            </ul>
                         </article>
 
                     </section>
