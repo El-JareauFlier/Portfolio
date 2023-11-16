@@ -1,11 +1,13 @@
-const Skill = ({title, description, img}) => {
+const Skill = ({title, work, description, link, img, onClick}) => {
+
+ 
     return ( 
-        <article className="book" >
-            <img src={img} alt="book"></img>
+        <article className="skill" onClick={onClick} >
+            <img src={img} alt="skill"></img>
             <h2>{title}</h2>
-            <h3>{author}</h3>
         </article>
+ 
     );
 }
  
-export default Book;
+export default Skill;

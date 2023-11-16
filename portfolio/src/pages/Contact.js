@@ -5,7 +5,7 @@ const Contact = () => {
         <div className='App'>
             <Layout>
                 <header>
-                    <section className="contactme">
+                    <section className="sect1">
                         <h1>Hello</h1>
                         <h2>As long i dont have any intership.</h2>
                         <h2>contact me so we can get in touch!</h2>
