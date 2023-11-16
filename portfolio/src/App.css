@@ -2,6 +2,7 @@
   /* text & bg colors */
   --color-bg1: rgb(19, 19, 19);
   --color-bg2: rgb(242, 242, 213);
+  --color-bg3: rgb(166, 158, 128);
 
 
 
@@ -17,11 +18,20 @@
   font-size: 62,5%;
   scroll-behavior: smooth;
 }
-
+ body{
+  background-color: var(--color-bg1);
+  font-family: 'Castoro Titling', sans-serif;
+  font-size: 1.6rem;
+  color: var(--font-color);
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+ }
 
 .layout {
   margin-left: 5rem;
   background-color: var(--color-bg2);
+  
 }
 
 .navbar {
@@ -172,7 +182,7 @@ header {
 .profileImg img{
   width: 100%;
   height: 100%;
-  background-color: rgb(166, 158, 128);
+  background-color: var(--color-bg3);
   border: 0.4rem solid var(--color-bg2);
 }
 
@@ -210,15 +220,32 @@ header {
   font-size: 15rem;
 }
 
-.main1 p {
-  color: #FFF;
-  font-family: Verdana, sans-serif;
-  font-size: 2.1vw;
-  font-style: normal;
-  font-weight: 300;
+.AboutmeText{
   position: absolute;
   width: 50%;
-  margin: 20vh 40vw;
+  height: 40%;
+  right: 5rem;
+  top: 5rem;
+}
+
+.AboutmeText p {
+  color: #FFF;
+  font-family: Verdana, sans-serif;
+  font-size: 1.7vw;
+  font-weight: 300;
+}
+
+.AboutmeText .small{
+  font-size: 1.3vw;
+  font-weight: lighter;
+}
+
+.AboutmeText h2 {
+  color: #FFF;
+  font-family: Verdana, sans-serif;
+  font-size: 2vw;
+  font-weight: 800;
+  margin-top: 2vh;
 }
 
 .main2{
@@ -331,4 +358,61 @@ header {
   margin: 2rem 0;
   text-align:right;
   padding: 2rem;
+}
+
+.serviceSect{
+  margin: 4rem;
+  text-align: center;
+}
+
+.serviceContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.serviceCard{
+  width: 20vw;
+  height: 20vw;
+  background-color: var(--color-bg3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 2rem;
+  transition: 0.5
+}
+
+.serviceCard::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0.2rem solid var(--color-bg1);
+  right: 1.5rem;
+  bottom: 1.5rem;
+  z-index: -1;
+}
+
+.serviceCard:hover{
+  transform: scale(1.05);
+  transition: 1s;
+  cursor: pointer;
+  box-shadow: 0.5rem 0.5rem var(--color-bg1);
+  
+}
+
+.serviceCard h2{
+  font-size: 1.8rem;
+  font-weight: 900;
+  font-family: 'Castoro Titling', sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.serviceCard p{
+  font-size: 1.5rem;
+  font-weight: 100;
+  font-family: Verdana, sans-serif;
 }

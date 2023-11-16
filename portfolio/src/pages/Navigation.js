@@ -1,13 +1,15 @@
 import {Link, Outlet} from 'react-router-dom'
 import { FaLinkedinIn } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
+//Here i made use of icons
 
 const Navigation = () => {
 return (
+    //this is the navigation bar
 <>
     <nav className='navbar'>
         <div className='nav-container'>
-
+            
             <ul className='rotate'>
                 <li><Link to='/contact' className='Alink'>Contact</Link></li>
                 <li><Link to='/projects' className='Alink'>projects</Link></li>
