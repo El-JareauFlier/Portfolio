@@ -5,7 +5,7 @@ const Projects = () => {
     return ( 
         <div className='App'>
             <Layout>
-                <header className="sect1 project">
+                <header className="project">
                     <section className="skillholder">
                         <h1>My projcets</h1>
                         <SkillList/>

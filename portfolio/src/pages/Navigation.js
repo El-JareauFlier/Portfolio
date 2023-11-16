@@ -1,4 +1,6 @@
 import {Link, Outlet} from 'react-router-dom'
+import { FaLinkedinIn } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 const Navigation = () => {
 return (
@@ -12,14 +14,14 @@ return (
                 <li><Link to='/home' className='Alink'>home</Link></li>
             </ul>
 
-            <ul>
-                <div className='icon'>
-                    <img src="" alt="" />
-                </div>
+            <ul className='icons'>
+                <a className='icon' target="_blank" href="https://www.linkedin.com/in/el-jareauflierstudent/" rel="noreferrer">
+                    <FaLinkedinIn />
+                </a>
 
-                <div className='icon'>
-                    <img src="" alt="" />
-                </div>
+                <a  className='icon' target="_blank" href="mailto:el.j.flier@gmail.com" rel="noreferrer">
+                    <IoIosMail />
+                </a>
             </ul>
         </div>
     </nav>

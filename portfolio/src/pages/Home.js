@@ -11,13 +11,15 @@ return (
                         <h1>El-jareau</h1>
                         <h2>Flier</h2>
                     </div>
-                    <h2>Techniek collge schiedam</h2>
+                    <p>- Student at Techniek college schiedam -</p>
                 </article>
 
                 <div className="profileImg">
                     <img src="images/m5.png" alt="me" />
-                    <h2>Software developer</h2>
                 </div>
+
+                <h2 className='profileText2'>- Front-end developer -</h2>
+
             </section>
         </header>
         <main>
