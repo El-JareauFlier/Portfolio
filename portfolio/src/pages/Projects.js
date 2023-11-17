@@ -7,7 +7,7 @@ const Projects = () => {
             <Layout>
                 <header className="project">
                     <section className="skillholder">
-                        <h1>My projcets</h1>
+                        <h1>My projects</h1>
                         <SkillList/>
                     </section>
                 </header>

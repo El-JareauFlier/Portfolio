@@ -19,7 +19,13 @@ return (
                     <img src="images/m5.png" alt="me" />
                 </div>
 
-                <h2 className='profileText2'>- Front-end developer -</h2>
+                <div className='profileText2'>
+                    <h2>- Front-end developer -</h2>
+
+                    <a href="images/cv.pdf" download>
+                    <button>My cv</button>
+                    </a>
+                </div>
 
             </section>
         </header>

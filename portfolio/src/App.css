@@ -159,17 +159,36 @@ header {
 }
 
 .profileText2{
+  rotate: -90deg;
+  display: flex;
+}
+
+.profileText2 h2{
   font-family: Verdana, sans-serif;
   padding: 0;
   font-size: 2vw;
   text-align: left;
-  rotate: -90deg;
 }
 
+.profileText2 button{
+  width: 8rem;
+  height: 4rem;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0);
+  border: 0.2rem solid var(--color-bg1);
+  color: var(--color-bg1);
+  font-family: Verdana, sans-serif;
+  cursor: pointer;
+}
+
+.profileText2 button:hover{
+  transform: scale(1.02);
+  transition: 0.1s;
+}
 
 .profileImg{
-  width: 34%;
-  height: 70%;
+  width: 34rem;
+  height: 30rem;
   display: flex;
   margin: auto;
   position: relative;
@@ -354,8 +373,21 @@ header {
   top: 100%;
   right: 0;
   margin: 2rem 0;
-  text-align:right;
   padding: 2rem;
+  text-align: center;
+  background-color:rgb(12, 12, 14);
+  color: white;
+}
+
+.hider p{
+  margin-bottom: 1rem;
+}
+
+.hider a{
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 .serviceSect{
