@@ -13,7 +13,7 @@ return (
             <ul className='rotate'>
                 <li><Link to='/contact' className='Alink'>Contact</Link></li>
                 <li><Link to='/projects' className='Alink'>projects</Link></li>
-                <li><Link to='/home' className='Alink'>home</Link></li>
+                <li><Link index to='/home' className='Alink'>home</Link></li>
             </ul>
 
             <ul className='icons'>
