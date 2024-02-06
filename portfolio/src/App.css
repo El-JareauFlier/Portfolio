@@ -16,14 +16,22 @@
   scroll-behavior: smooth;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
 body {
   background-color: var(--color-bg1);
   font-family: "Castoro Titling", sans-serif;
   font-size: 1.6rem;
   color: var(--font-color);
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
 }
 
 .layout {
@@ -67,7 +75,6 @@ body {
 .navbar a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: var(--color-bg1);
   font-size: 0.8rem;
   font-style: italic;
 }
@@ -79,7 +86,7 @@ body {
 }
 
 .Alink {
-  padding: 0 15px;
+  margin: 0 15px;
 }
 
 .icons {
@@ -414,7 +421,7 @@ header {
 
 .serviceCard:hover {
   transform: scale(1.05);
-  transition: 1s;
+  transition: 1.2s;
   cursor: pointer;
   box-shadow: 0.5rem 0.5rem var(--color-bg1);
 }
