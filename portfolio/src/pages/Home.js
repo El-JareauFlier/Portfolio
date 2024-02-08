@@ -2,7 +2,6 @@ import Layout from "../components/Layout";
 import ServiceList from "../components/ServiceList";
 import me from "../assets/me.png";
 
-
 const Home = () => {
   return (
     <div className="App">
