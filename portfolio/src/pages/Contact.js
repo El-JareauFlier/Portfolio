@@ -15,7 +15,7 @@ const Contact = () => {
               <p>School email: 9017738@student.zadkine.nl</p>
               <p>Phone number: 06 23549646</p>
               <ul class="links">
-                <li>On the interneth: </li>
+                <li>On the internet: </li>
                 <li>
                   <a
                     target="_blank"

@@ -38,14 +38,14 @@ const Home = () => {
             <div className="AboutmeText">
               <p>
                 Hi, my name is El-Jareau Flier and im an MBO 4 Front-End
-                Development student at Techniek College Rotterdam. I am
-                currently in my second year and i am looking for an internship
-                for the period of 10 weeks. i studied at Experience college and
-                have a diploma in Media Design & ICT. I am a hard worker and i
-                am always looking for a challenge.
+                Development student at Techniek College Rotterdam. <br />
+                <br /> I am currently in my second year and i am looking for an
+                internship for the period of 10 weeks. i studied at Experience
+                college and have a diploma in Media Design & ICT. I am a hard
+                worker and i am always looking for a challenge.
               </p>
 
-              <h2>My skills are: </h2>
+              <h2>My skills: </h2>
               <p className="small">
                 HTML, CSS, Javascript, React, Bootstrap & Figma
               </p>

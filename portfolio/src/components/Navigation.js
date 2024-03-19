@@ -21,7 +21,7 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <Link index to="/home" className="Alink">
+              <Link to="/portfolio" className="Alink">
                 home
               </Link>
             </li>
