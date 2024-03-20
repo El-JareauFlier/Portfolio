@@ -1,8 +1,54 @@
 import Layout from "../components/Layout";
 import ServiceList from "../components/ServiceList";
 import me from "../assets/me.png";
+import { gsap } from "gsap";
+
+// function animate() {
+
+//   var main_tl               = new TimelineMax();
+
+//    main_tl
+
+//   .add(animElementsTl())
+
+// ;
+
+// }
+
+// function animElementsTl() {
+
+//   var elementsTl = new TimelineMax();
+
+//       elementsTl
+
+//INFO PAGE
+
+// ;
+
+//   return elementsTl;
+
+// }
+
+// document.addEventListener("DOMContentLoaded", function() {
+
+//           animate();
+
+// });
 
 const Home = () => {
+  useGSAP(
+    () => {
+      gsap.from(".profileText", {
+        duration: 2,
+        x: -50,
+        autoAlpha: 0,
+        ease: "expo.out",
+        visibility: "visible",
+      }); // <-- automatically reverted
+    },
+    { scope: container }
+  ); // <-- scope is for selector text (optional)
+
   return (
     <div className="App">
       <Layout>
