@@ -1,53 +1,74 @@
 import Layout from "../components/Layout";
 import ServiceList from "../components/ServiceList";
 import me from "../assets/me.png";
+
+//for animation
 import { gsap } from "gsap";
+import React, { useEffect } from 'react';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
-// function animate() {
-
-//   var main_tl               = new TimelineMax();
-
-//    main_tl
-
-//   .add(animElementsTl())
-
-// ;
-
-// }
-
-// function animElementsTl() {
-
-//   var elementsTl = new TimelineMax();
-
-//       elementsTl
-
-//INFO PAGE
-
-// ;
-
-//   return elementsTl;
-
-// }
-
-// document.addEventListener("DOMContentLoaded", function() {
-
-//           animate();
-
-// });
+gsap.registerPlugin(ScrollTrigger);
 
 const Home = () => {
-  useGSAP(
-    () => {
-      gsap.from(".profileText", {
-        duration: 2,
-        x: -50,
-        autoAlpha: 0,
+
+  useEffect(() => {
+    gsap.fromTo(".motionLeft, .profileText p",
+      { autoAlpha: 0, x: -100 },
+      {
+        duration: 4,
+        x: 0,
+        autoAlpha: 1,
         ease: "expo.out",
         visibility: "visible",
-      }); // <-- automatically reverted
-    },
-    { scope: container }
-  ); // <-- scope is for selector text (optional)
+        stagger: 0.3,
+        delay: 0.5,
+
+      }
+    );
+
+    gsap.fromTo(".profileImg, .profileText2",
+      { autoAlpha: 0, y: -100 },
+      {
+        duration: 4,
+        y: 0,
+        autoAlpha: 1,
+        ease: "expo.out",
+        visibility: "visible",
+        stagger: 0.2,
+      }
+    );
+
+    gsap.fromTo(".Aboutme",
+      { autoAlpha: 0, x: -200 },
+      {
+        duration: 4,
+        x: 0,
+        autoAlpha: 1,
+        ease: "expo.out",
+        visibility: "visible",
+        scrollTrigger: {
+          trigger: ".Aboutme",
+          start: "top 75%", // start when top of the element is 75% from the top of the viewport
+        },
+      }
+    );
+
+    gsap.fromTo(".AboutmeText",
+      { autoAlpha: 0, y: -50 },
+      {
+        duration: 4,
+        y: 0,
+        autoAlpha: 1,
+        ease: "expo.out",
+        visibility: "visible",
+        delay: 0.4,
+        scrollTrigger: {
+          trigger: ".AboutmeText",
+          start: "top 75%", // start when top of the element is 75% from the top of the viewport
+        },
+      }
+    );
+  }, []);
 
   return (
     <div className="App">
@@ -55,7 +76,7 @@ const Home = () => {
         <header>
           <section className="profile">
             <article className="profileText">
-              <div>
+              <div className="motionLeft">
                 <h1>El-jareau</h1>
                 <h2>Flier</h2>
               </div>

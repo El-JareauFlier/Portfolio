@@ -2,8 +2,9 @@ import Service from "./Service";
 import { useState } from "react";
 
 const ServiceList = () => {
-  const [services, setServices] = useState([
+  const [services] = useState([
     {
+
       title: "Responsive Web Design",
       description:
         "Create websites that work seamlessly on desktops, tablets, and mobile devices.",

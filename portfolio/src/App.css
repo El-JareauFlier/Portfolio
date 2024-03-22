@@ -30,8 +30,10 @@
 
 /* Hide scrollbar for IE, Edge and Firefox */
 html {
-  scrollbar-width: none; /* For Firefox */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+  scrollbar-width: none;
+  /* For Firefox */
+  -ms-overflow-style: none;
+  /* For Internet Explorer and Edge */
 }
 
 body {
@@ -139,10 +141,9 @@ header {
 }
 
 .profileText {
-  display: flex;
   position: relative;
   width: 45%;
-  margin-right: 2rem;
+  margin-right: 1rem;
   flex-direction: column;
   text-align: right;
 }
@@ -244,11 +245,12 @@ header {
 }
 
 .AboutmeText {
-  position: absolute;
   width: 50%;
   height: 40%;
   right: 5rem;
   top: 5rem;
+  position: absolute;
+
 }
 
 .AboutmeText p {
@@ -420,10 +422,10 @@ header {
   flex-direction: column;
   padding: 2rem;
   margin: 2rem;
-  transition: 0.5;
+  position: relative;
 }
 
-.serviceCard::after {
+.serviceCard:hover:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -436,8 +438,9 @@ header {
 
 .serviceCard:hover {
   transform: scale(1.05);
-  transition: 1.2s;
+  transition: 0.5s;
   cursor: pointer;
+  background-color: rgb(142, 134, 104);
   box-shadow: 0.5rem 0.5rem var(--color-bg1);
 }
 
@@ -446,7 +449,6 @@ header {
   font-weight: 600;
   font-family: var(--second-font);
   margin-bottom: 0.8rem;
-  transition: 1.2s;
 }
 
 .serviceCard p {
@@ -470,6 +472,7 @@ header {
   cursor: pointer;
   transition: 0.5s;
 }
+
 .links a:hover {
   transform: scale(1.1);
 }
@@ -478,5 +481,17 @@ header {
   height: 50px;
   margin: 0 0 -50px 0;
   /* margin: 20px 0 -50px 0; use this if you want #container to have a 'bottom padding', in this case of 20px */
-  background: transparent; /* you'll need this if #container's parent element has a different background from #container itself */
+  background: transparent;
+  /* you'll need this if #container's parent element has a different background from #container itself */
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #181818;
+  transform: translateX(-100%);
+  z-index: 9999;
 }
