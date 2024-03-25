@@ -10,7 +10,7 @@ const Service = ({ title, description }) => {
   //animation
   useEffect(() => {
     gsap.fromTo(".serviceCard",
-      { autoAlpha: 0, x: -10, y: -20 },
+      { autoAlpha: 0, x: -10, y: -40 },
       {
         duration: 4,
         x: 0,

@@ -39,9 +39,9 @@ const Home = () => {
     );
 
     gsap.fromTo(".Aboutme",
-      { autoAlpha: 0, x: -200 },
+      { autoAlpha: 0, x: -80 },
       {
-        duration: 4,
+        duration: 3,
         x: 0,
         autoAlpha: 1,
         ease: "expo.out",
