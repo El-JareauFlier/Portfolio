@@ -88,10 +88,10 @@ const Home = () => {
             </div>
 
             <div className="profileText2">
-              <h2>- Front-end developer -</h2>
+              <h2>- Creative Developer -</h2>
 
               <a href="./images/cv.pdf" download>
-                <button>My cv</button>
+                <button>MY CV</button>
               </a>
             </div>
           </section>

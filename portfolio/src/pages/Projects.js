@@ -12,8 +12,19 @@ const Projects = () => {
 
 
   useEffect(() => {
+    gsap.fromTo(".skillholder h1",
+      { autoAlpha: 0, y: -30 },
+      {
+        duration: 3,
+        y: 0,
+        autoAlpha: 1,
+        ease: "expo.out",
+        visibility: "visible",
+        delay: 0.3,
+      }
+    );
     gsap.fromTo(".skill",
-      { autoAlpha: 0, x: -10 },
+      { autoAlpha: 0, x: -20 },
       {
         duration: 4,
         x: 0,
@@ -21,30 +32,10 @@ const Projects = () => {
         ease: "expo.out",
         visibility: "visible",
         stagger: 0.1,
-        delay: 0.5,
-      }
-    );
-
-    gsap.fromTo(".Aboutme",
-      { autoAlpha: 0, x: -200 },
-      {
-        duration: 4,
-        x: 0,
-        autoAlpha: 1,
-        ease: "expo.out",
-        visibility: "visible",
-        scrollTrigger: {
-          trigger: ".Aboutme",
-          start: "top 75%", // start when top of the element is 75% from the top of the viewport
-        },
+        delay: 0.6,
       }
     );
   }, []);
-
-  function onClick() {
-    gsap.to(window, { duration: 1, scrollTo: ".hider" });
-  }
-
 
   return (
     <div className="App">

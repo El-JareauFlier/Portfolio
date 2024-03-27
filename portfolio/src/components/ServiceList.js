@@ -24,7 +24,7 @@ const ServiceList = () => {
   ]);
 
   return (
-    <section className="serviceSect">
+    <section className="6">
       <h2>Services</h2>
       <article className="serviceContainer">
         {services.map((service) => (

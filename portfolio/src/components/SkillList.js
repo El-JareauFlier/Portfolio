@@ -23,7 +23,10 @@ const SkillList = () => {
       id: 3,
       title: "Restaurant website",
       work: "individual project",
-      description: ``,
+      description: `Welcome to my project. I'm excited to take you on a virtual journey through the flavors and colors of Greece right from your screen. As an MBO 4 student, I've poured my heart and soul into creating this website to showcase the beauty and deliciousness of Greek cuisine.\n
+      Imagine strolling through the cobblestone streets of Athens, feeling the warmth of the Mediterranean sun on your skin, and indulging in mouthwatering dishes that burst with flavor. That's the experience I want to bring to you through "Taste of Greece".\n
+      With vibrant colors like blue, white, and orange, inspired by the Greek flag and its stunning landscapes, I've designed this website to be as inviting as a Greek taverna on a summer evening.\n
+      So, whether you're here to learn about Greek food, plan your next culinary adventure, or simply satisfy your cravings for souvlaki and baklava, I've got you covered. Get ready to dive into the world of Greek cuisine it's going to be a delicious ride!`,
       link: "github",
       img: restaurant,
     },
