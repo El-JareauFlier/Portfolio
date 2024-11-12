@@ -46,6 +46,11 @@ const Projects = () => {
             <SkillList />
           </section>
         </header>
+        <footer>
+          <section className="footer">
+            <p>© 2024 El-Jareau Flier. All rights reserved.</p>
+          </section>
+        </footer>
       </Layout>
     </div>
   );

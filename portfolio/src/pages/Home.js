@@ -62,12 +62,30 @@ const Home = () => {
         ease: "expo.out",
         visibility: "visible",
         delay: 0.4,
+        stagger: 1,
         scrollTrigger: {
           trigger: ".AboutmeText",
           start: "top 75%", // start when top of the element is 75% from the top of the viewport
         },
       }
     );
+    
+    gsap.fromTo(".animate-skills",
+      { autoAlpha: 0, y: 50 },
+      {
+        duration: 4,
+        y: 0,
+        autoAlpha: 1,
+        ease: "expo.out",
+        visibility: "visible",
+        delay: 0.1, // Adjust the delay as needed
+        scrollTrigger: {
+          trigger: ".AboutmeText",
+          start: "top 75%", // start when top of the element is 75% from the top of the viewport
+        },
+      }
+    );
+
   }, []);
 
   return (
@@ -112,15 +130,23 @@ const Home = () => {
                 worker and i am always looking for a challenge.
               </p>
 
-              <h2>My skills: </h2>
-              <p className="small">
-                HTML, CSS, Javascript, React, Bootstrap & Figma
-              </p>
+              <div className="animate-skills">
+                <h2>My skills: </h2>
+                <p className="small">
+                  HTML, CSS, Javascript, React, Bootstrap & Figma
+                </p>
+              </div>
             </div>
           </section>
 
           <ServiceList />
         </main>
+
+        <footer>
+          <section className="footer">
+            <p>© 2024 El-Jareau Flier. All rights reserved.</p>
+          </section>
+        </footer>
       </Layout>
     </div>
   );

@@ -44,6 +44,7 @@ body {
 }
 
 .layout {
+  height: 100vh;
   margin-left: 5rem;
   background-color: var(--color-bg2);
 }
@@ -195,7 +196,7 @@ header {
 }
 
 .profileImg {
-  width: 34rem;
+  width: 35rem;
   height: 30rem;
   display: flex;
   margin: auto;
@@ -222,13 +223,14 @@ header {
 }
 
 .main1 {
-  background-color: var(--color-bg1);
   display: flex;
   justify-content: left;
   align-items: center;
   position: relative;
   padding: 2rem;
+  margin-top: 6rem;
   z-index: 2;
+  background-color: var(--color-bg1);
 }
 
 .Aboutme h2 {
@@ -311,11 +313,21 @@ header {
 
 .project {
   background-color: var(--color-bg1);
+  width: auto;
+  height: 100%;
+  margin: auto;
+  padding: 4rem;
+  position: relative;
+  overflow: scroll;
+}
+
+.skill img{
+cursor: pointer;
 }
 
 .skillholder {
+  height: 100%;
   width: 100%;
-  padding: 4rem;
   position: relative;
 }
 
@@ -337,13 +349,17 @@ header {
   margin: 2vh 0;
 }
 
+.skill-container {
+  max-height: calc(100vh - 100px);
+  /* Adjust the value to match the footer height */
+}
+
 .container {
   display: flex;
   justify-content: space-between;
   height: auto;
   margin-top: 2rem;
   position: relative;
-  background-color: var(--color-bg1);
 }
 
 .skill {
@@ -402,11 +418,26 @@ header {
   text-align: center;
 }
 
+
+.main1b {
+  padding: 2rem;
+  margin-top: 8rem;
+  z-index: 2;
+  background-color: var(--color-bg2);
+}
+
+.serviceTitle {
+  text-align: center;
+  font-size: 5rem;
+}
+
 .serviceContainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
+  margin: 2.5rem;
+  position: relative;
+
 }
 
 .serviceCard {
@@ -417,7 +448,6 @@ header {
   justify-content: center;
   flex-direction: column;
   padding: 2rem;
-  margin: 2rem;
   position: relative;
 }
 
@@ -427,8 +457,8 @@ header {
   width: 100%;
   height: 100%;
   border: 0.2rem solid var(--color-bg3);
-  right: 1.5rem;
-  bottom: 1.5rem;
+  right: 1.2rem;
+  bottom: 1.2rem;
   z-index: -1;
 }
 
@@ -491,5 +521,19 @@ header {
   height: 100%;
   background: #181818;
   transform: translateX(-100%);
-  z-index: 9999;
+  z-index: 9;
+}
+
+.footer {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 1em;
+  background-color: var(--color-bg1);
+  color: var(--color-bg2);
+  font-size: 1rem;
+}
+
+.footer p {
+  margin-right: 2rem;
 }

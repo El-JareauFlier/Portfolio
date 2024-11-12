@@ -24,8 +24,8 @@ const ServiceList = () => {
   ]);
 
   return (
-    <section className="6">
-      <h2>Services</h2>
+    <section  className="main1b">
+      <h2 className="serviceTitle" >Services</h2>
       <article className="serviceContainer">
         {services.map((service) => (
           <Service title={service.title} description={service.description} />

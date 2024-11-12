@@ -54,24 +54,26 @@ const SkillList = () => {
   };
 
   return (
-    <section className="container">
+    <div className="container">
       {skills.map((skill) => (
-        <>
+        <div className="skilldetail">
           <Skill
             onClick={() => toggleSkillDetail(skill.id)}
             title={skill.title}
             img={skill.img}
           />
-          {selectedSkillId === skill.id && (
-            <SkillDetail
-              work={skill.work}
-              description={skill.description}
-              link={skill.link}
-            />
-          )}
-        </>
+          <div className="skillhider">
+            {selectedSkillId === skill.id && (
+              <SkillDetail
+                work={skill.work}
+                description={skill.description}
+                link={skill.link}
+              />
+            )}
+          </div>
+        </div>
       ))}
-    </section>
+    </div>
   );
 };
 
