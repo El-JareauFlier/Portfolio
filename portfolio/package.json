@@ -1,5 +1,5 @@
 {
-  "homepage": "https://El-JareauFlier.github.io/portfolio",
+  "homepage": "https://el-jareauflier.github.io/Portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -44,7 +44,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1",
+    "gh-pages": "^6.2.0",
     "react-router-dom": "^6.17.0"
   }
 }
