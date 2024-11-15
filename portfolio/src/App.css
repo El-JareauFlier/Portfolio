@@ -4,8 +4,8 @@
   /* text & bg colors */
   --color-bg1: rgb(19, 19, 19);
   --color-bg1b: rgb(12, 12, 14);
-  --color-bg2: #EAEAEA;
-  --color-bg3: rgb(166, 158, 128);
+  --color-bg2: #F0F0E2;
+  --color-bg3: #A69E80;
 
   --font-color: black;
 
@@ -196,7 +196,7 @@ header {
 }
 
 .profileImg {
-  width: 35rem;
+  width: 34.5rem;
   height: 30rem;
   display: flex;
   margin: auto;
