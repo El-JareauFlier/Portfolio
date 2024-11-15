@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.d58a5f50.css",
+    "main.js": "/portfolio/static/js/main.ed9e6c42.js",
+    "static/media/restaurant.png": "/portfolio/static/media/restaurant.742993435bb5d4e1c42c.png",
+    "static/media/travelly2.png": "/portfolio/static/media/travelly2.9dd8d49df71eacd0bd60.png",
+    "static/media/clothes.png": "/portfolio/static/media/clothes.7c7d3cc6f2b6a8448bd8.png",
+    "static/media/me.png": "/portfolio/static/media/me.ce6ff709b72351492baf.png",
+    "static/media/castoro-titling-latin-400-normal.woff2": "/portfolio/static/media/castoro-titling-latin-400-normal.c7a7c9615880334c4b8d.woff2",
+    "static/media/castoro-titling-latin-400-normal.woff": "/portfolio/static/media/castoro-titling-latin-400-normal.f901e03875a02d464b59.woff",
+    "static/media/castoro-titling-latin-ext-400-normal.woff2": "/portfolio/static/media/castoro-titling-latin-ext-400-normal.588a6882248bec4d3adf.woff2",
+    "static/media/castoro-titling-latin-ext-400-normal.woff": "/portfolio/static/media/castoro-titling-latin-ext-400-normal.fc417f59b6d42e2bbe60.woff",
+    "index.html": "/portfolio/index.html",
+    "main.d58a5f50.css.map": "/portfolio/static/css/main.d58a5f50.css.map",
+    "main.ed9e6c42.js.map": "/portfolio/static/js/main.ed9e6c42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d58a5f50.css",
+    "static/js/main.ed9e6c42.js"
+  ]
+}
