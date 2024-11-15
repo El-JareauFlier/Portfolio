@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.2d513ab7.css",
+    "main.css": "/Portfolio/static/css/main.f932e161.css",
     "main.js": "/Portfolio/static/js/main.4ff1a317.js",
     "static/media/restaurant.png": "/Portfolio/static/media/restaurant.742993435bb5d4e1c42c.png",
     "static/media/travelly2.png": "/Portfolio/static/media/travelly2.9dd8d49df71eacd0bd60.png",
@@ -11,11 +11,11 @@
     "static/media/castoro-titling-latin-ext-400-normal.woff2": "/Portfolio/static/media/castoro-titling-latin-ext-400-normal.588a6882248bec4d3adf.woff2",
     "static/media/castoro-titling-latin-ext-400-normal.woff": "/Portfolio/static/media/castoro-titling-latin-ext-400-normal.fc417f59b6d42e2bbe60.woff",
     "index.html": "/Portfolio/index.html",
-    "main.2d513ab7.css.map": "/Portfolio/static/css/main.2d513ab7.css.map",
+    "main.f932e161.css.map": "/Portfolio/static/css/main.f932e161.css.map",
     "main.4ff1a317.js.map": "/Portfolio/static/js/main.4ff1a317.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d513ab7.css",
+    "static/css/main.f932e161.css",
     "static/js/main.4ff1a317.js"
   ]
 }
