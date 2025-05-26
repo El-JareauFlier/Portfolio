@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.8e686c95.css",
-    "main.js": "/Portfolio/static/js/main.4ff1a317.js",
+    "main.css": "/Portfolio/static/css/main.c4e4c6f0.css",
+    "main.js": "/Portfolio/static/js/main.2df28c68.js",
     "static/media/restaurant.png": "/Portfolio/static/media/restaurant.742993435bb5d4e1c42c.png",
     "static/media/travelly2.png": "/Portfolio/static/media/travelly2.9dd8d49df71eacd0bd60.png",
     "static/media/clothes.png": "/Portfolio/static/media/clothes.7c7d3cc6f2b6a8448bd8.png",
@@ -11,11 +11,11 @@
     "static/media/castoro-titling-latin-ext-400-normal.woff2": "/Portfolio/static/media/castoro-titling-latin-ext-400-normal.588a6882248bec4d3adf.woff2",
     "static/media/castoro-titling-latin-ext-400-normal.woff": "/Portfolio/static/media/castoro-titling-latin-ext-400-normal.fc417f59b6d42e2bbe60.woff",
     "index.html": "/Portfolio/index.html",
-    "main.8e686c95.css.map": "/Portfolio/static/css/main.8e686c95.css.map",
-    "main.4ff1a317.js.map": "/Portfolio/static/js/main.4ff1a317.js.map"
+    "main.c4e4c6f0.css.map": "/Portfolio/static/css/main.c4e4c6f0.css.map",
+    "main.2df28c68.js.map": "/Portfolio/static/js/main.2df28c68.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e686c95.css",
-    "static/js/main.4ff1a317.js"
+    "static/css/main.c4e4c6f0.css",
+    "static/js/main.2df28c68.js"
   ]
 }
