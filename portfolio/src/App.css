@@ -4,7 +4,7 @@
   /* text & bg colors */
   --color-bg1: rgb(19, 19, 19);
   --color-bg1b: rgb(12, 12, 14);
-  --color-bg2: #F0F0E2;
+  --color-bg2: #fff;
   --color-bg3: #A69E80;
 
   --font-color: black;
@@ -537,3 +537,5 @@ cursor: pointer;
 .footer p {
   margin-right: 2rem;
 }
+
+ 

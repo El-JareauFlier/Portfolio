@@ -27,12 +27,12 @@ const SkillList = () => {
       Imagine strolling through the cobblestone streets of Athens, feeling the warmth of the Mediterranean sun on your skin, and indulging in mouthwatering dishes that burst with flavor. That's the experience I want to bring to you through "Taste of Greece".\n
       With vibrant colors like blue, white, and orange, inspired by the Greek flag and its stunning landscapes, I've designed this website to be as inviting as a Greek taverna on a summer evening.\n
       So, whether you're here to learn about Greek food, plan your next culinary adventure, or simply satisfy your cravings for souvlaki and baklava, I've got you covered. Get ready to dive into the world of Greek cuisine it's going to be a delicious ride!`,
-      link: "github",
+      link: "https://www.figma.com/design/LtqMPzQay8YurmLFEhaDKO/restaurant-website-p-6?node-id=0-1&p=f&t=YzFDCFSs83ADzvvl-0",
       img: restaurant,
     },
 
     {
-      id: 0,
+      id: 2,
       title: "The street store",
       work: "team work project",
       description: `We teamed up to create an online clothing store for a project. My part was to design the first page you see when you visit the site, and also the section where we showcase different types of pants.\n
@@ -40,7 +40,7 @@ const SkillList = () => {
     In the pants section, I arranged everything so it's easy to look through. You can use filters to find pants in your size or favorite color. I also wrote short descriptions about each pair of pants to help people decide which ones they like.\n
     We worked together by talking often and sharing ideas. This helped us make sure everything looked good and worked well on the website.\n
     Overall, we created a cool online store that our teacher really liked.`,
-      link: "github",
+      link: "https://www.figma.com/design/LQCbKDvONX2sK4UqaVhCJ9/Opdracht--Wireframe-individueel?node-id=0-1&p=f&t=pxmtO2RsR1ArfSkV-0",
       img: clothes,
     },
   ]);
